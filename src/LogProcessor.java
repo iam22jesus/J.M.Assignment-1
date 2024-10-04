@@ -74,6 +74,7 @@ public class LogProcessor {
         ErrorLogStack errorStack = new ErrorLogStack();
 
         // Path to the log file
+        String logFilePath = "src/log-data.csv";
 
         // Step 1: Read the log file and enqueue all log entries into the queue
         readLogFileAndEnqueue(logQueue, logFilePath);
